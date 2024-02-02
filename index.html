@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweethome Restaurant</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Hedvig Letters Serif', serif;
+        }
+
+        section {
+            background-color: rgb(0, 0, 0);
+            min-height: 100vh;
+            background-image: url('https://m.media-amazon.com/images/I/710Shp1E3-L.AC_UF1000,1000_QL80.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0px;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20%;
+        }
+
+        nav {
+            height: 80px;
+            background-color: rgb(50, 50, 50);
+        }
+
+        nav ul {
+            float: right;
+            height: 50%;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            padding: 60px 40px;
+            height: 80px;
+        }
+
+        nav ul li a {
+            color: rgb(245, 243, 240);
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding: 7px 8px;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(232, 128, 10);
+            transition: 0.2s ease;
+        }
+
+        .matter {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            transform: translateY(25vh);
+            font-size: xxx-large;
+            font-family: 'Righteous', sans-serif;
+            font-weight: 500%;
+            margin-bottom: 20px;
+            color: rgb(254, 242, 69);
+            background-color: rgb(30, 30, 30);
+        }
+
+        .matter h2 {
+            font-size: large;
+            font-family: 'Encode Sans Expanded', sans-serif;
+            font-weight: 100;
+            color: rgb(242, 219, 198);
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: rgb(232, 128, 10);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: rgb(200, 100, 0);
+        }
+
+        /* About Section Styles */
+        #about-section {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #about-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #about-section p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="matter">
+                <h1>Sweethome Restaurant</h1>
+                <h2>Where flavor meets perfection</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section">
+        <div class="container">
+            <h3>About Our Restaurant</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula est ac justo tincidunt, vel interdum justo mattis. Suspendisse aliquet euismod ullamcorper. Vestibulum non consectetur turpis. Quisque suscipit risus eu nisi semper, id volutpat felis finibus.</p>
+        </div>
+    </section>
+</body>
+</html>

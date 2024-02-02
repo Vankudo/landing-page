@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Hedvig Letters Serif', serif; 
+}
+
+section {
+    background-color: rgb(0, 0, 0); /* Add your desired background color */
+    min-height: 100vh; 
+    background-image: url('https://m.media-amazon.com/images/I/710Shp1E3-L.AC_UF1000,1000_QL80.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20%;  
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(50, 50, 50); /* Add your desired background color */
+}
+
+nav ul {
+    float: right;
+    height: 50%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 60px 40px;
+    height: 80px;
+}
+
+nav ul li a {
+    color: rgb(245, 243, 240);
+    text-decoration: none;
+    text-transform: uppercase; 
+    border-radius: 5px;
+    padding: 7px 8px;  
+}
+
+nav ul li a:hover {
+    background-color: rgb(232, 128, 10);
+    transition: 0.2s ease;
+}
+
+.matter {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+    font-size: xxx-large;
+    font-family: 'Righteous', sans-serif;   
+    font-weight: 500%;
+    margin-bottom: 20px;
+    color: rgb(254, 242, 69);
+    background-color: rgb(30, 30, 30); /* Add your desired background color */
+}
+
+.matter h2 {
+    font-size: large;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 100;
+    color: rgb(242, 219, 198); /* Completed the color value */
+}
